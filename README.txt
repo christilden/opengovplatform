@@ -3,6 +3,7 @@ Installation Instructions
 -------------------------
 
 1.  Refer to webapp/core/INSTALL.txt file for server requirements.
+    mod_rewrite is required for opengovplatform to function.
 
 2.  Copy contents under webapp/core to the web server's document root
     directory. Make sure .htaccess file is copied.
@@ -18,10 +19,7 @@ Installation Instructions
     webapp/sites/default/settings.php and update the
     database connection settings.  (Line 91)
 
-7.  Create a symbolic link in webapp/sites directory with the name of
-    the server (e.g., www.example.gov) to 'dgib_dms' directory.
-
-8.  Default Drupal administration username and password is:
+7.  Default Drupal administration username and password is:
     Username: admin
     Password: password!
 
